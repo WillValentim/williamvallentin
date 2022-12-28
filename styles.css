@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.conteiner{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100vh;
+	background: #fb6f92;
+}
+
+.conteiner form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: #ff8fab;
+	border-radius: 20px;
+	width: 450px;
+	height: 400px;
+	box-shadow: 10px 5px 5px #e27396;
+	transition: 0.3s ease;
+}
+
+.conteiner form:hover{
+	box-shadow: 10px 5px 5px #b9375e;
+}
+
+.conteiner form i{
+	font-size: 4em;
+	color: #fff;
+	margin: 10px;
+}
+
+.conteiner form input[type=text],
+.conteiner form input[type=password]{
+	width: 80%;
+	height: 40px;
+	border-radius: 5px;
+	border: none;
+	margin: 10px 0;
+	outline: none;
+	padding: 0 10px;
+	background: #fb6f92;
+	color: #f6f6c9;
+	font-size: 1em;
+}
+
+.conteiner form input::placeholder{
+	color: #b9375e;
+
+}
+
+.conteiner form input[type=submit]{
+	width: 80%;
+	height: 40px;
+	border-radius: 5px;
+	border: none;
+	margin: 10px 0;
+	background: #b9375e;
+	color: #fff;
+	font-size: 1.3em;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+
+.conteiner form input[type=submit]:hover{
+	background: #e05780;
+}
+
+.conteiner .criar{
+	margin-top: 20px;
+}
+
+.conteiner .criar span{
+	color: #fff;
+	font-size: 0.9em;
+}
+
+.conteiner .criar a{
+	color: #b9375e;
+	font-size: 0.9em;
+	text-decoration: none;
+}
